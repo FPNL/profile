@@ -206,6 +206,10 @@ main {
   padding: 28px 0;
   border-top: 1px solid var(--card-separator);
 }
+.section-head + .job {
+  border-top: none;
+  padding-top: 0;
+}
 .job-last { border-bottom: 1px solid var(--card-separator); }
 .job-head {
   display: flex;
