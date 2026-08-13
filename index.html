@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>關於我</title>
+<meta name="description" content="吳孟俞 Meng-Yu Wu ・ 資深軟體工程師 ・ 專長於服務基礎建設與工程品質">
+<meta property="og:title" content="吳孟俞 Meng-Yu Wu — 資深軟體工程師">
+<meta property="og:description" content="專長在服務的基礎建設與工程品質。經手的多半不是單一功能，而是團隊共用的地基。">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://me.xillis.xyz">
+<meta name="twitter:card" content="summary">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://me.xillis.xyz">
+<link rel="stylesheet" href="styles.css">
+<noscript><style>[data-reveal]{opacity:1}</style></noscript>
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="#top" class="nav-logo">
+      <span data-lang="zh">吳孟俞</span><span data-lang="en">Meng-Yu Wu</span>
+    </a>
+    <div class="nav-links">
+      <a href="#about" data-nav="about"><span data-lang="zh">簡介</span><span data-lang="en">Summary</span></a>
+      <a href="#experience" data-nav="experience"><span data-lang="zh">工作經歷</span><span data-lang="en">Experience</span></a>
+      <a href="#skills" data-nav="skills"><span data-lang="zh">核心技能</span><span data-lang="en">Skills</span></a>
+      <a href="#education" data-nav="education"><span data-lang="zh">認證與學歷</span><span data-lang="en">Credentials</span></a>
+    </div>
+    <div class="lang-switch">
+      <button type="button" data-lang-btn="zh" class="lang-tab is-active">中</button>
+      <button type="button" data-lang-btn="en" class="lang-tab">EN</button>
+    </div>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero" data-reveal>
+    <div class="hero-text">
+      <h1>
+        <span data-lang="zh">吳孟俞</span><span data-lang="en">Meng-Yu Wu</span>
+      </h1>
+      <p class="hero-role">
+        <span data-lang="zh">資深軟體工程師</span><span data-lang="en">Senior Software Engineer</span>
+      </p>
+      <p class="hero-tagline">
+        <span data-lang="zh" data-block>專長在服務的基礎建設與工程品質。經手的多半不是單一功能，而是團隊共用的地基。</span><span data-lang="en" data-block>Focused on service infrastructure and engineering quality. Most of what I build is not a single feature, but the ground a team stands on.</span>
+      </p>
+    </div>
+    <div class="hero-meta">
+      <a href="mailto:xillis@outlook.com" class="link-underline">xillis@outlook.com</a>
+      <span class="dot">・</span>
+      <a href="https://linkedin.com/in/FPNL" target="_blank" rel="noreferrer" class="link-underline">linkedin.com/in/FPNL</a>
+      <span class="dot">・</span>
+      <span><span data-lang="zh">台北市</span><span data-lang="en">Taipei, Taiwan</span></span>
+    </div>
+  </section>
+
+  <section id="about" class="section" data-reveal>
+    <div class="section-head">
+      <h2><span data-lang="zh">簡介</span><span data-lang="en">SUMMARY</span></h2>
+      <span class="rule"></span>
+    </div>
+    <p class="body-text">
+      <span data-lang="zh" data-block>五年以上工作經驗，Backend 為主，具備 Go／Node.js／Vue／GCP 的完整開發與部署經驗。熟悉使用 AI Agent 配合開發，包含 Copilot, Claude, Antigravity 等，專長在服務的基礎建設與工程品質。經手的多半不是單一功能，而是團隊共用的地基——專案骨架、設定載入、測試層級與請求追蹤，其中數項被收編為團隊的共用基礎設施。數次以改動底層、或改變既有工具用途的方式，移除跨角色之間的耦合與溝通成本。</span>
+      <span data-lang="en" data-block>Backend-focused engineer with 5+ years of experience, covering Go, Node.js, Vue and GCP end to end — development through deployment. Work daily alongside AI coding agents including Copilot, Claude and Antigravity. Specialize in service infrastructure and engineering quality. Most of what I ship is not a single feature but shared ground for the team: project scaffolding, config loading, test layers, request tracing — several of which were adopted as team-wide infrastructure. Repeatedly removed coupling and communication overhead between roles by changing what sits underneath, or by repurposing tools the team already had.</span>
+    </p>
+  </section>
+
+  <section id="experience" class="section" data-reveal>
+    <div class="section-head">
+      <h2><span data-lang="zh">工作經歷</span><span data-lang="en">EXPERIENCE</span></h2>
+      <span class="rule"></span>
+    </div>
+
+    <article class="job">
+      <div class="job-head">
+        <h3><span data-lang="zh">艾克森科技有限公司 — 資深後端工程師</span><span data-lang="en">Aikesen Technology Co., Ltd. (艾克森科技) — Senior Backend Engineer</span></h3>
+        <p class="job-meta"><span data-lang="zh">台北市 ｜ 2023 – 2026</span><span data-lang="en">Taipei ｜ 2023 – 2026</span></p>
+      </div>
+      <ul class="job-list">
+        <li><span data-lang="zh" data-block>設計跨組可維護的服務骨架，公司新服務仍各自為政；重新設計一套統一 HTTP 與 gRPC 專案的分層結構與共用中介層，讓其他組接手維護時能快速上手，並沿用於後續新建的微服務系統。</span><span data-lang="en" data-block>Designed a service skeleton other teams could maintain. New services were each built their own way; redesigned one layering structure and shared middleware covering both HTTP and gRPC projects, so other teams could pick them up quickly — reused across every microservice built since.</span></li>
+        <li><span data-lang="zh" data-block>修改標準庫，解決開發與維運在加解密上的諜對諜，使雙方解耦、省去逐案溝通成本；方案提出後列為團隊基礎設施，設定結構零改動。</span><span data-lang="en" data-block>Modified the standard library to end the cat-and-mouse between dev and ops over encryption, decoupling both sides and removing case-by-case negotiation. Adopted as team infrastructure, with zero change to the config structure.</span></li>
+        <li><span data-lang="zh" data-block>主導請求可視化，由於微服務化後，請求破碎化，單一錯誤橫跨多個服務，原先需要翻查各服務日誌；導入 ELK APM 後，跨服務的完整請求鏈路可在同一畫面還原，單一錯誤的定位不再需要動員全組。</span><span data-lang="en" data-block>Led request observability. After the split into microservices, one error spanned several services and meant digging through each service's logs; introduced ELK APM so a full cross-service trace reconstructs on one screen. Locating an error no longer takes the whole team.</span></li>
+        <li><span data-lang="zh" data-block>升級測試層級，原本僅有以 mock 撰寫的單元測試，資料庫的實際行為不在涵蓋範圍內；評估整合測試效益更高並串進 CI 自動執行，錯誤能在進版前被發現。</span><span data-lang="en" data-block>Raised the level of testing. Coverage was mock-based unit tests only, leaving real database behavior untested; assessed integration tests as the higher-value path and wired them into CI, so failures surface before release.</span></li>
+        <li><span data-lang="zh" data-block>重構CI/CD，協助 DevOps 以 Gitlab runner 替代 jenkins，整合多方腳本為單一 YAML 設定檔。</span><span data-lang="en" data-block>Rebuilt CI/CD — helped DevOps replace Jenkins with GitLab runners and consolidated scattered scripts into a single YAML config.</span></li>
+        <li><span data-lang="zh" data-block>把 SQL 審核搬上手機，正式環境的 SQL 需經主管審核、再由 DBA 執行，半夜的緊急事件得等兩人分別開電腦上線；改以 Slack 完成審核後，核准當下即自動執行，DBA 不再需要手動介入。</span><span data-lang="en" data-block>Moved SQL review onto the phone. Production SQL needed a manager's approval and then DBA execution, so a midnight incident waited for two people to get to a computer; approval now happens in Slack and runs automatically on approval, with no manual DBA step.</span></li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <h3><span data-lang="zh">拓荒資本有限公司 — 資深軟體工程師</span><span data-lang="en">Tuohuang Capital Co., Ltd. (拓荒資本) — Senior Software Engineer</span></h3>
+        <p class="job-meta"><span data-lang="zh">台北市 ｜ 2022 – 2023</span><span data-lang="en">Taipei ｜ 2022 – 2023</span></p>
+      </div>
+      <ul class="job-list">
+        <li><span data-lang="zh" data-block>負責會員系統開發，以分層架構與 Repository 模式劃分領域邊界，支援團隊平行開發。</span><span data-lang="en" data-block>Built the member system, splitting domain boundaries with layered architecture and the repository pattern to support parallel work across the team.</span></li>
+        <li><span data-lang="zh" data-block>實作 RBAC 權限控管， 以 Casbin 依租戶分層管理角色與資源存取。</span><span data-lang="en" data-block>Implemented RBAC with Casbin, managing roles and resource access per tenant.</span></li>
+        <li><span data-lang="zh" data-block>串接第三方 API，利用託管錢包服務，實現入金、出金與鏈上地址管理。</span><span data-lang="en" data-block>Integrated third-party APIs, using a custodial wallet service for deposits, withdrawals and on-chain address management.</span></li>
+        <li><span data-lang="zh" data-block>雲端 CI/CD，GitHub 原始碼經 Cloud Build 建置，映像檔推送至 Artifact Registry 後部署至 Cloud Run。</span><span data-lang="en" data-block>Ran cloud CI/CD: GitHub source built by Cloud Build, images pushed to Artifact Registry, then deployed to Cloud Run.</span></li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <h3><span data-lang="zh">凡谷興業有限公司 — 後端工程師</span><span data-lang="en">Fangu Enterprise Co., Ltd. (凡谷興業) — Backend Engineer</span></h3>
+        <p class="job-meta"><span data-lang="zh">台中市 ｜ 2020 – 2022</span><span data-lang="en">Taichung ｜ 2020 – 2022</span></p>
+      </div>
+      <ul class="job-list">
+        <li><span data-lang="zh" data-block>負責會員系統 API 開發，導入 Redis 快取並設計 cache invalidation 機制處理讀取一致性。</span><span data-lang="en" data-block>Developed member system APIs; introduced Redis caching and designed a cache invalidation mechanism for read consistency.</span></li>
+        <li><span data-lang="zh" data-block>撰寫 ETL 批次任務整併多個內部系統資料，並參與大型資料庫遷移專案（舊系統轉換至新系統）。</span><span data-lang="en" data-block>Wrote ETL batch jobs consolidating data across internal systems, and took part in a large database migration from the legacy system to its replacement.</span></li>
+        <li><span data-lang="zh" data-block>擔任常態性 on-call 輪值，負責線上異常排查與處理，並擔任客戶技術諮詢窗口。</span><span data-lang="en" data-block>Served on the regular on-call rotation for production incident triage, and acted as the technical point of contact for customers.</span></li>
+      </ul>
+    </article>
+
+    <article class="job job-last">
+      <div class="job-head">
+        <h3><span data-lang="zh">雋上科技有限公司 — 前端工程師</span><span data-lang="en">Junshang Technology Co., Ltd. (雋上科技) — Frontend Engineer</span></h3>
+        <p class="job-meta"><span data-lang="zh">台中市 ｜ 2019 – 2020</span><span data-lang="en">Taichung ｜ 2019 – 2020</span></p>
+      </div>
+      <ul class="job-list">
+        <li><span data-lang="zh" data-block>完成產品 Vue 2 → Vue 3 框架升級，並執行 RWD 響應式重構。</span><span data-lang="en" data-block>Upgraded the product from Vue 2 to Vue 3, and refactored it for responsive layout.</span></li>
+        <li><span data-lang="zh" data-block>維護 CI/CD 自動化部署流程，優化網頁載入效能。</span><span data-lang="en" data-block>Maintained CI/CD deployment automation and optimized page load performance.</span></li>
+      </ul>
+    </article>
+  </section>
+
+  <section id="skills" class="section" data-reveal>
+    <div class="section-head">
+      <h2><span data-lang="zh">核心技能</span><span data-lang="en">SKILLS</span></h2>
+      <span class="rule"></span>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3><span data-lang="zh">雲端交付與工具</span><span data-lang="en">Cloud delivery &amp; tooling</span></h3>
+        <div class="tags">
+          <span class="tag">Go</span>
+          <span class="tag">Node</span>
+          <span class="tag">PHP</span>
+          <span class="tag">Vue</span>
+          <span class="tag"><span data-lang="zh">GCP 雲端部署</span><span data-lang="en">GCP deployment</span></span>
+          <span class="tag"><span data-lang="zh">CI/CD 自動部署</span><span data-lang="en">CI/CD automation</span></span>
+          <span class="tag"><span data-lang="zh">Docker 容器化</span><span data-lang="en">Docker</span></span>
+          <span class="tag"><span data-lang="zh">IAM 與機密管理</span><span data-lang="en">IAM &amp; secrets management</span></span>
+          <span class="tag"><span data-lang="zh">AI 輔助開發</span><span data-lang="en">AI-assisted development</span></span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3><span data-lang="zh">資料與儲存</span><span data-lang="en">Data &amp; storage</span></h3>
+        <div class="tags">
+          <span class="tag"><span data-lang="zh">MySQL 索引調校</span><span data-lang="en">MySQL index tuning</span></span>
+          <span class="tag"><span data-lang="zh">交易隔離與鎖</span><span data-lang="en">Transaction isolation &amp; locking</span></span>
+          <span class="tag"><span data-lang="zh">分表與讀寫分離</span><span data-lang="en">Sharding &amp; read-write splitting</span></span>
+          <span class="tag"><span data-lang="zh">schema 遷移</span><span data-lang="en">Schema migration</span></span>
+          <span class="tag"><span data-lang="zh">Redis 快取策略</span><span data-lang="en">Redis caching strategy</span></span>
+          <span class="tag"><span data-lang="zh">分散式鎖與限流</span><span data-lang="en">Distributed locks &amp; rate limiting</span></span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3><span data-lang="zh">測試與可觀測性</span><span data-lang="en">Testing &amp; observability</span></h3>
+        <div class="tags">
+          <span class="tag">TDD</span>
+          <span class="tag"><span data-lang="zh">單元與整合測試</span><span data-lang="en">Unit &amp; integration testing</span></span>
+          <span class="tag"><span data-lang="zh">容器化資料庫測試</span><span data-lang="en">Containerized database testing</span></span>
+          <span class="tag"><span data-lang="zh">CI 自動化迴歸</span><span data-lang="en">Automated regression in CI</span></span>
+          <span class="tag"><span data-lang="zh">結構化日誌</span><span data-lang="en">Structured logging</span></span>
+          <span class="tag"><span data-lang="zh">APM 與鏈路追蹤</span><span data-lang="en">APM &amp; distributed tracing</span></span>
+        </div>
+      </div>
+
+      <div class="skill-card">
+        <h3><span data-lang="zh">架構與服務設計</span><span data-lang="en">Architecture &amp; service design</span></h3>
+        <div class="tags">
+          <span class="tag"><span data-lang="zh">微服務與分層架構</span><span data-lang="en">Microservices &amp; layered architecture</span></span>
+          <span class="tag"><span data-lang="zh">依賴反轉與注入</span><span data-lang="en">Dependency inversion &amp; injection</span></span>
+          <span class="tag"><span data-lang="zh">REST 與 gRPC</span><span data-lang="en">REST &amp; gRPC</span></span>
+          <span class="tag"><span data-lang="zh">OIDC／JWT 驗證</span><span data-lang="en">OIDC / JWT auth</span></span>
+          <span class="tag"><span data-lang="zh">RBAC 與多租戶</span><span data-lang="en">RBAC &amp; multi-tenancy</span></span>
+          <span class="tag"><span data-lang="zh">韌性與併發控制</span><span data-lang="en">Resilience &amp; concurrency control</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section" data-reveal>
+    <div class="section-head">
+      <h2><span data-lang="zh">認證與學歷</span><span data-lang="en">CREDENTIALS</span></h2>
+      <span class="rule"></span>
+    </div>
+    <div class="credentials">
+      <div class="credential-row">
+        <p class="credential-title">Google Cloud Digital Leader</p>
+        <p class="credential-meta"><span data-lang="zh">Google Cloud 官方認證</span><span data-lang="en">Google Cloud official certification</span></p>
+      </div>
+      <div class="credential-row">
+        <p class="credential-title"><span data-lang="zh">國立金門大學 ・ 應用英語學系 ・ 學士</span><span data-lang="en">National Quemoy University ・ BA, Applied English</span></p>
+        <p class="credential-meta">2012 – 2016</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span><span data-lang="zh">吳孟俞 ・ 資深軟體工程師 ・ 台北市</span><span data-lang="en">Meng-Yu Wu ・ Senior Software Engineer ・ Taipei</span></span>
+    <span class="sep">|</span>
+    <a href="mailto:xillis@outlook.com">xillis@outlook.com</a>
+    <a href="https://linkedin.com/in/FPNL" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
